@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-       /* // Create a Scanner object
+       // Create a Scanner object
         Scanner scanner = new Scanner(System.in);
 
         // Prompt the user for width
@@ -20,7 +20,7 @@ public class Main {
         System.out.println("The area is: " + area);
 
         // Close the scanner
-        scanner.close(); */
+        scanner.close(); 
 
 
 
