@@ -2,53 +2,64 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-       // Create a Scanner object
-        Scanner scanner = new Scanner(System.in);
-
-        // Prompt the user for width
-        System.out.print("Enter the width: ");
-        double width = scanner.nextDouble();
-
-        // Prompt the user for height
-        System.out.print("Enter the height: ");
-        double height = scanner.nextDouble();
-
-        // Calculate the area
-        double area = width * height;
-
-        // Display the result
-        System.out.println("The area is: " + area);
-
-        // Close the scanner
-        scanner.close(); 
+/*
+	
+	//-----shopping cart program----
 
 
+	Scanner scanner = new Scanner(System.in);
 
+	String item;
 
-// mad libs game
- Scanner scanner = new Scanner(System.in);
- String adjective1;
- String noun1;
- String adjective2;
- String Verb1;
- String adjective3;
+	double price;
 
-System.out.println("enter an adjective (description): ");
-adjective1 = scanner.nextLine();
-System.out.println("enter an noun (naming word): ");
-noun1 = scanner.nextLine();
-System.out.println("enter an adjective (description): ");
-adjective2 = scanner.nextLine();
-System.out.println("enter a verb end with ing: ");
-Verb1 = scanner.nextLine();
-System.out.println("enter an adjective (description): ");
-adjective3 = scanner.nextLine();
+	int quantity;
 
-System.out.println("today I went to a " + adjective1 + "zoo.");
-System.out.println("IN an exhibition I saw a " + noun1 + ".");
-System.out.println(noun1 + "was" + adjective2 + "and" + Verb1 + "!");
-System.out.println("I was " +adjective3 + "!");
-scanner.close();
-    }
+	char currency = '$';   //--- code of a smart shopping cart---
+
+	double total;
+
+	System.out.println("What item u would like to buy: ");
+
+	item = scanner .nextLine();
+
+	System.out.println("What's the price of each: ");
+
+	price = scanner.nextDouble();
+
+	System.out.println("how many would u like:");
+
+	quantity = scanner.nextInt();
+
+	total = price * quantity;
+
+	System.out.println("you have bought " + quantity + " " + item + "/s");
+
+	System.out.println("your total is " + currency + total);
+
+	System.out.println(total);
+	
+	scanner.close(); */
+	
+	//--if statements = performs a block of code if its condition is true-
+	
+	Scanner scanner = new Scanner(System.in);
+	
+	int age;
+	
+	System.out.println("Enter your age ");
+	age = scanner.nextInt();
+	
+	if(age >= 18){
+	System.out.println("You are an adult");
+}
+	else if(age <0){
+  	System.out.println("you haven't been born yet ");
+	}
+	else{
+	 System.out.println ("you are a child");
+	scanner.close();
 }
 
+}
+}
